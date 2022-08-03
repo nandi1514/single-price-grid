@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    
+}
+
+body {
+    background-color: lightblue;
+}
+
+.card{
+    min-width: 40%;
+    margin: 0 auto;
+    width: 45vw;
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 0.625rem;
+}
+
+.header{
+    color: hsl(218, 22%, 67%);
+    padding: 2rem;
+    /* padding-inline: 2rem;
+    padding-bottom: 2rem; */
+    line-height: 1.6;
+}
+
+.header h2{
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 1.5rem;
+
+}
+
+.green{
+    color: hsl(71, 73%, 54%);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+h5{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.bottom{
+    display: flex;
+    color: white;
+   
+}
+
+.left{
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 0.625rem;
+    max-width: 50%;
+    width: 100%;
+    padding: 3rem;
+    line-height: 2;
+}
+
+.price span {
+    font-size: 2rem;
+    padding-inline: 0 0.8rem;
+    font-weight: 700;
+}
+
+.price p{
+    font-weight: 400;
+}
+
+button{
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 0;
+    width: 100%;
+    padding: 0.625rem 0;
+    padding-inline: 2rem ;
+    border-radius: 0.5rem;
+
+}
+
+.right{
+    background-color: hsl(179, 62%, 43%, .8);
+    border-bottom-right-radius: 0.625rem;
+    max-width: 50%;
+    width: 100%;
+    padding: 3rem;
+    
+}
+
+.list{
+    padding-top: 1rem;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 400;
+}
